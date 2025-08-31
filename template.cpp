@@ -7,12 +7,20 @@
 #include <cmath>
 using namespace std;
 
-// Fast I/O template
+// Debug helper (only runs in local, ignored in online judge)
+#define debug(x) cerr << #x << " = " << x << endl;
+
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+    ios::sync_with_stdio(false); // Fast input/output
+    cin.tie(0);
 
-    // Your code here
-
-    return 0;
+    int n;
+    cout << "Enter a Number: "<<flush;
+    cin >> n;
+    cout << "You entered: " << n << "\n";
+    if ('b'<'A')
+    {
+        cout << "true";
+    }
+    
 }
